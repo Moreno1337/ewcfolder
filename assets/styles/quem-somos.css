@@ -1,0 +1,288 @@
+.quem-somos {
+    height: 700px;
+}
+
+.quem-somos__container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+
+.quem-somos__box-um {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quem-somos__box-um-titulo {
+    text-transform: uppercase;
+    color: #007ADD;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    width: 300px;
+    margin-top: 60px;
+}
+
+.quem-somos__box-um-div-dois {
+    margin-top: 90px;
+}
+
+.quem-somos__box-um-titulo-dois {
+    color: #007ADD;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.quem-somos__box-um-texto {
+    color: #686868;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 400px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.quem-somos__box-dois {
+    width: 50%;
+}
+
+.quem-somos__box-dois-img {
+    height: 50%;
+    width: 100%;
+}
+
+.quem-somos__box-dois-div-um {
+    height: 50%;
+}
+
+.quem-somos__div-um-cont-um {
+    display: flex;
+    height: 50%;
+}
+
+.quem-somos__visao-box {
+    width: 50%;
+    color: #FFF;
+    background-color: #007ADD;
+    padding: 30px 25px;
+    text-align: end;
+}
+
+.quem-somos__missao-box {
+    width: 50%;
+    color: #FFF;
+    background-color: #002963;
+    padding: 30px 25px;
+}
+
+.quem-somos__visao-titulo {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.quem-somos__visao-texto {
+    overflow-y: scroll;
+    height: 80px;
+    line-height: 23px;
+}
+
+.quem-somos__visao-texto::-webkit-scrollbar {
+    width: 8px;
+}
+
+.quem-somos__visao-texto::-webkit-scrollbar-thumb {
+    background: #c8c8c8;
+    background-clip: padding-box;
+}
+
+.quem-somos__visao-texto::-webkit-scrollbar-thumb:hover {
+    background: #456899;
+}
+
+#texto-um::-webkit-scrollbar-track {
+    background: #007ADD;
+}
+
+#texto-um::-webkit-scrollbar-thumb {
+    border-left: 5px #007ADD solid;
+}
+
+#texto-dois::-webkit-scrollbar-track {
+    background: #002963;
+}
+
+#texto-dois::-webkit-scrollbar-thumb {
+    border-left: 5px #002963 solid;
+}
+
+.quem-somos__div-um-cont-dois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.quem-somos__valores {
+    color: #9BD7F2;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.quem-somos__valores span {
+    color: #007ADD;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.quem-somos__valores-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    margin-top: 5px;
+}
+
+@media screen and (min-width: 1500px) {
+    .quem-somos {
+        height: 800px;
+    }
+
+    .quem-somos__container {
+        width: 1400px;
+    }
+
+    .quem-somos__box-um-texto {
+        line-height: 28px;
+    }
+
+    .quem-somos__visao-texto {
+        height: 100px;
+        line-height: 28px;
+    }
+
+    .quem-somos__valores {
+        font-size: 42px;
+        margin-right: 100px;
+    }
+
+    .quem-somos__valores span {
+        font-size: 34px;
+    }
+
+    .quem-somos__valores-item {
+        font-size: 24px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .quem-somos {
+        height: 1400px;
+    }
+
+    .quem-somos__container {
+        width: 700px;
+        flex-direction: column;
+    }
+
+    .quem-somos__box-um {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 70px;
+    }
+
+    .quem-somos__box-dois {
+        width: 100%;
+    }
+
+    .quem-somos__box-um-texto {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .quem-somos {
+        height: 1600px;
+    }
+
+    .quem-somos__box-um {
+        align-items: center;
+    }
+
+    .quem-somos__container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .quem-somos__box-um-titulo-dois {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .quem-somos__box-um-texto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quem-somos__visao-box {
+        padding: 20px 16px;
+        width: 100%;
+    }
+
+    .quem-somos__missao-box {
+        padding: 20px 16px;
+        width: 100%;
+    }
+
+    .quem-somos__visao-titulo {
+        font-size: 20px;
+    }
+
+    .quem-somos__visao-texto {
+        font-size: 16px;
+        line-height: 18px;
+        height: 100px;
+    }
+
+    .quem-somos__div-um-cont-um {
+        height: 370px;
+    }
+
+    .quem-somos__valores {
+        font-size: 24px;
+    }
+
+    .quem-somos__valores span {
+        font-size: 18px;
+    }
+
+    .quem-somos__valores-item {
+        font-size: 14px;
+    }
+
+    .quem-somos__div-um-cont-um {
+        flex-direction: column;
+    }
+
+    .quem-somos__box-dois-div-um {
+        height: 400px;
+    }
+
+    .quem-somos__div-um-cont-dois {
+        height: 120px;
+    }
+}
