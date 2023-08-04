@@ -1,0 +1,39 @@
+{
+    "projetos": [
+        {
+            "titulo": "Projeto 1",
+            "imagem": "assets/img/linha-de-producao.png",
+            "descricao": ["Modelo: 4S V250", "Pacote: Ttpo Almofada", "Produto: Batata Palha", "Produção: 80ppm"],
+            "fotos": ["assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png"],
+            "videos": ["https://www.youtube.com/embed/mDMCfQFwsl8"]
+        },  
+        {
+            "titulo": "Projeto 2",
+            "imagem": "assets/img/linha-de-producao.png",
+            "descricao": ["Modelo: 4S V250", "Pacote: Ttpo Almofada", "Produto: Batata Palha", "Produção: 80ppm"],
+            "fotos": ["assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png"],
+            "videos": ["https://www.youtube.com/embed/mDMCfQFwsl8"]
+        },  
+        {
+            "titulo": "Projeto 3",
+            "imagem": "assets/img/linha-de-producao.png",
+            "descricao": ["assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png"],
+            "fotos": ["assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png"],
+            "videos": ["https://www.youtube.com/embed/mDMCfQFwsl8"]
+        },  
+        {
+            "titulo": "Projeto 4",
+            "imagem": "assets/img/linha-de-producao.png",
+            "descricao": ["Modelo: 4S V250", "Pacote: Ttpo Almofada", "Produto: Batata Palha", "Produção: 80ppm"],
+            "fotos": ["assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png"],
+            "videos": ["https://www.youtube.com/embed/mDMCfQFwsl8"]
+        },  
+        {
+            "titulo": "Projeto 5",
+            "imagem": "assets/img/linha-de-producao.png",
+            "descricao": ["Modelo: 4S V250", "Pacote: Ttpo Almofada", "Produto: Batata Palha", "Produção: 80ppm"],
+            "fotos": ["assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png", "assets/img/linha-de-producao.png"],
+            "videos": ["https://www.youtube.com/embed/mDMCfQFwsl8"]
+        }
+    ]
+}
