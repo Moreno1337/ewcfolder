@@ -45,7 +45,7 @@
 
 .projetos__template {
     width: 270px;
-    height: 200px;
+    height: 250px;
     background-color: black;
     position: relative;
     margin-top: 40px;
@@ -207,7 +207,6 @@
 
     .projetos__template {
         width: 330px;
-        height: 250px;
     }
 
     .div__projetos {
