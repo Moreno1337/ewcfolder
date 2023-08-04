@@ -46,7 +46,7 @@ function mostraDescricao(div, titulo, descricao, fotos, videos) {
         <div class="mascara"></div>
         <h3 class="template__titulo">${titulo}</h3>
         <div class="template__descricao"></div>
-        <button class="template__botao">Voltar</button>
+        <button class="template__botao-voltar">Voltar</button>
     `;
 
     div.innerHTML = template;

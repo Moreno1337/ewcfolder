@@ -86,6 +86,19 @@
     border-radius: 5px;
 }
 
+.template__botao-voltar {
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    background-color: #0153A2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 5px;
+}
+
 .template__botao:hover {
     background-color: #176bb9;
     cursor: pointer;
@@ -102,7 +115,7 @@
     overflow-y: scroll;
     width: 95%;
     height: 65%;
-    padding-right: 80px;
+    padding-right: 10px;
 }
 
 .template__descricao::-webkit-scrollbar {
