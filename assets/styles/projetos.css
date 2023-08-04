@@ -50,6 +50,7 @@
     position: relative;
     margin-top: 40px;
     border: 1px solid #FFF;
+    position: relative;
 }
 
 .projetos__titulo {
@@ -67,6 +68,9 @@
     text-transform: uppercase;
     padding: 10px;
     width: max-content;
+    z-index: 1;
+    position: relative;
+    margin-top: 15px;
 }
 
 .template__botao {
@@ -79,11 +83,60 @@
     position: absolute;
     bottom: 20px;
     right: 20px;
+    border-radius: 5px;
 }
 
 .template__botao:hover {
     background-color: #176bb9;
     cursor: pointer;
+}
+
+.template__descricao {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+    overflow-y: scroll;
+    width: 95%;
+    height: 65%;
+    padding-right: 80px;
+}
+
+.template__descricao::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+   
+.template__descricao::-webkit-scrollbar-track {
+    background: #C8C8C8;
+}
+
+
+.template__descricao::-webkit-scrollbar-thumb {
+    background: #0153A2;
+}
+
+.template__descricao::-webkit-scrollbar-thumb:hover {
+    background: #01396e;
+}
+
+.template__descricao p {
+    margin-top: 15px;
+}
+
+.template__descricao img {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #FFF;
+}
+
+.template__descricao iframe {
+    width: 99%;
+    border: 1px solid #FFF;
+    margin-top: 15px;
 }
 
 .projetos__serviços-container {
