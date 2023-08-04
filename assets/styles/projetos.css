@@ -104,6 +104,11 @@
     cursor: pointer;
 }
 
+.template__botao-voltar:hover {
+    background-color: #176bb9;
+    cursor: pointer;
+}
+
 .template__descricao {
     color: #FFF;
     font-size: 14px;
